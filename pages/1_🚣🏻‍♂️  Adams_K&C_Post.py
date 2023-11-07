@@ -38,7 +38,7 @@ def page_group_a1():
     st.write("---")
     
     
-    overview_G1_image=Image.open('image/kc_plus_minus.jpg')
+    overview_G1_image=Image.open('image/KC_plus_minus.jpg')
     st.image(overview_G1_image, caption='Version: Beta V0.2')
 
 def page_group_a2():
