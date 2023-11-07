@@ -2,7 +2,7 @@ import pandas as pd
 import openai
 import streamlit as st
 #import streamlit_nested_layout
-from streamlit.hello.quan import get_primer,format_question,run_request
+from streamlit.hello.utils import get_primer,format_question,run_request
 import warnings
 from PIL import Image
 
@@ -20,7 +20,7 @@ st.markdown("<h2 style='text-align: center;padding-top: 0rem;'>Creating Statisti
 
 human_col1, human_col2, human_col3 = st.columns([1, 3, 1]) 
 with human_col2:
-    human_image=Image.open('image/Human_01.JPG')
+    human_image=Image.open('image/Human_01.jpg')
     st.image(human_image, caption='Version: Beta V0.1')
 
 
