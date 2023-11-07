@@ -1913,8 +1913,8 @@ def page_group_b1():
     # 在第二列（中间列）中显示图片
     with v1col2:
         st.title("K&C Results Postprocessor\n for Rigid Body Calculation")
-        kc_overview_rigid_image=Image.open('image/kc_overview_flexbody.jpg')
-        st.image(kc_overview_rigid_image)
+        kc_overview_flex_image=Image.open('image/kc_overview_flexbody.jpg')
+        st.image(kc_overview_flex_image)
     
     st.write("---")
     st.write("**💩Note:** The calculation results are based on Adams/Car 2020 and above versions1.")
