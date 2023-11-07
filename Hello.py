@@ -15,13 +15,15 @@
 import streamlit as st
 from streamlit.logger import get_logger
 
+
 LOGGER = get_logger(__name__)
+
 
 
 def run():
     st.set_page_config(
         page_title="Hello Mr. Rong",
-        page_icon="👋",
+        page_icon="👋",layout="wide"
     )
 
     st.write("# Welcome to Streamlit! How are you 14 👋")
