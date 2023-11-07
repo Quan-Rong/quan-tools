@@ -1952,7 +1952,7 @@ pages = {
     },
     "Flexbody Body Results Post.": {  
         "Overview": page_group_b1,
-        "Bump Test": page_group_a2,
+        "Bump Test": page_group_b2,
         "Roll Test": page_group_a3,
         "Bump anti-Phase (Porsche)": page_group_a4,
         "Lateral in-Phase": page_group_a5,
