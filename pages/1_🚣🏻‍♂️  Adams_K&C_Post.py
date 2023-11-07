@@ -1913,7 +1913,7 @@ def page_group_b1():
     # 在第二列（中间列）中显示图片
     with v1col2:
         st.title("K&C Results Postprocessor\n for Rigid Body Calculation")
-        kc_overview_rigid_image=Image.open('image/kc_overview_rigid.JPG')
+        kc_overview_rigid_image=Image.open('image/kc_overview_rigid.jpg')
         st.image(kc_overview_rigid_image)
     
     st.write("---")
@@ -1930,7 +1930,7 @@ def page_group_b1():
     st.write("---")
     
     
-    overview_G1_image=Image.open('image/kc_plus_minus.JPG')
+    overview_G1_image=Image.open('image/kc_plus_minus.jpg')
     st.image(overview_G1_image, caption='Version: Beta V0.2')
 
 def page_group_b2():
