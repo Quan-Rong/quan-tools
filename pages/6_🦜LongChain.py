@@ -13,7 +13,7 @@ openai_api_key = st.sidebar.text_input('OpenAI API Key')
 
 longchain_col1, longchain_col2, longchain_col3 = st.columns([1, 1, 1]) 
 with longchain_col2:
-    longchain_image=Image.open('image/Longchain.JPG')
+    longchain_image=Image.open('image/Longchain.jpg')
     st.image(longchain_image, caption='Version: Beta V0.1')
 
 def generate_response(input_text):
