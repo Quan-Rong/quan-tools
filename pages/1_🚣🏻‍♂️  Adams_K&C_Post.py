@@ -1905,13 +1905,13 @@ def page_group_a10():
     st.title("Page Group A - 5")            
 
 def page_group_b1():
-    #st.title("K&C Results Postprocessor for flex Body Calculation") 
+    st.title("K&C Results Postprocessor for flex Body Calculation") 
     
     # 创建三个列
-    v1col1, v1col2, v1col3 = st.columns([1, 1, 1])  # 调整列的比例以中心对齐图片
+    v2col1, v2col2, v2col3 = st.columns([1, 1, 1])  # 调整列的比例以中心对齐图片
 
     # 在第二列（中间列）中显示图片
-    with v1col2:
+    with v2col2:
         st.title("K&C Results Postprocessor\n for Rigid Body Calculation")
         kc_overview_flex_image=Image.open('image/kc_overview_flexbody.jpg')
         st.image(kc_overview_flex_image)
