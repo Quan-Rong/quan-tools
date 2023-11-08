@@ -23,10 +23,12 @@ st.set_page_config(
 
 st.write('''# The Tools''')
 
-main_image=Image.open('logo_main_11.JPG')
-st.image(main_image, caption='Version: Beta V1.0')
+hello_col1, hello_col2, hello_col3 = st.columns([1, 3, 1]) 
+with hello_col2:
+    hello_image=Image.open('logo_main_11.JPG')
+    st.image(hello_image, caption='Version: Beta V0.1')
 
-st.sidebar.success("Select a locacase above.")
+st.sidebar.success("Select an option above.")
 
 st.markdown('''---''')
 
