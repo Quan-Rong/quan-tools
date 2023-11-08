@@ -1905,7 +1905,7 @@ def page_group_a10():
     st.title("Page Group A - 5")            
 
 def page_group_b1():
-    st.title("K&C Results Postprocessor for flex Body Calculation") 
+    #st.title("K&C Results Postprocessor for flex Body Calculation") 
     
     # 创建三个列
     v2col1, v2col2, v2col3 = st.columns([1, 1, 1])  # 调整列的比例以中心对齐图片
@@ -1930,7 +1930,7 @@ def page_group_b1():
     st.write("---")
     
     
-    overview_G1_image=Image.open('image/kc_plus_minus.jpg')
+    overview_G1_image=Image.open('image/KC_plus_minus.jpg')
     st.image(overview_G1_image, caption='Version: Beta V0.2')
 
 def page_group_b2():
