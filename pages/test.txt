@@ -1,1 +1,2 @@
-
+#Huggingface: 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
+#OpenAi: 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
