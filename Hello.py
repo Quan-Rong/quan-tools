@@ -23,7 +23,7 @@ st.set_page_config(
 
 st.write('''# The Tools''')
 
-hello_col1, hello_col2, hello_col3 = st.columns([1, 3, 1]) 
+hello_col1, hello_col2, hello_col3 = st.columns([1, 2, 1]) 
 with hello_col2:
     hello_image=Image.open('logo_main_11.JPG')
     st.image(hello_image, caption='Version: Beta V0.1')
